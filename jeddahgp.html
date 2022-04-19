@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="tstyles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Monza F1 Circuit
+  </title>
+  <style type="text/css">
+    * {
+      margin: 0;
+      border: 0;
+      padding: 0;
+    }
+
+    .margin {
+      margin-bottom: 75%;
+    }
+
+    /*--- Start Parallax Style --*/
+    .parallax {
+      background: url("jeddah.jpg") repeat fixed 50%;
+      text-align: center;
+    }
+
+    .parallax-inner {
+      padding-top: 20%;
+      padding-bottom: 30%;
+    }
+
+    /*--- End Parallax Style --*/
+    #headm {
+      text-align: center;
+      font-size: 500%;
+      color: #FFF;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="f1index.html">F1 Universe</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="f1index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Championship</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="constructors.html">Constructor's Championship</a></li>
+              <li><a class="dropdown-item" href="drivers.html">Driver's Championship</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Teams</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="mercedes.html">Mercedes</a></li>
+              <li><a class="dropdown-item" href="redbull.html">Redbull</a></li>
+              <li><a class="dropdown-item" href="ferrari.html">Ferrari</a></li>
+              <li><a class="dropdown-item" href="mclaren.html">Mclaren</a></li>
+              <li><a class="dropdown-item" href="astonmartin.html">Aston Martin</a></li>
+              <li><a class="dropdown-item" href="alpine.html">Alpine</a></li>
+              <li><a class="dropdown-item" href="alphatauri.html">Alpha Tauri</a></li>
+              <li><a class="dropdown-item" href="alfaromoe.html">Alfa Romeo</a></li>
+              <li><a class="dropdown-item" href="williams.html">Williams</a></li>
+              <li><a class="dropdown-item" href="haas.html">Haas</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Drivers</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="lewis.html">Lewis Hamilton</a></li>
+              <li><a class="dropdown-item" href="george.html">George Russell</a></li>
+              <li><a class="dropdown-item" href="max.html">Max Verstappen</a></li>
+              <li><a class="dropdown-item" href="perez.html">Sergio Perez</a></li>
+              <li><a class="dropdown-item" href="charles.html">Charles Leclere</a></li>
+              <li><a class="dropdown-item" href="carlos.html">Carlos Sainz</a></li>
+              <li><a class="dropdown-item" href="lando.html">Lando Norris</a></li>
+              <li><a class="dropdown-item" href="daniel.html">Daniel Riciardo</a></li>
+              <li><a class="dropdown-item" href="fernando.html">Fernando Alonso</a></li>
+              <li><a class="dropdown-item" href="esteban.html">Esteban Ocon</a></li>
+              <li><a class="dropdown-item" href="gasly.html">Pierre Gasly</a></li>
+              <li><a class="dropdown-item" href="yuki.html">Yuki Tsunoda</a></li>
+              <li><a class="dropdown-item" href="vettel.html">Sebastian Vettel</a></li>
+              <li><a class="dropdown-item" href="lance.html">Lance Stroll</a></li>
+              <li><a class="dropdown-item" href="bottas.html">Valteri Bottas</a></li>
+              <li><a class="dropdown-item" href="zou.html">Guanyu Zyou</a></li>
+              <li><a class="dropdown-item" href="alex.html">Alex Albon</a></li>
+              <li><a class="dropdown-item" href="latifi.html">Nicolas Latifi</a></li>
+              <li><a class="dropdown-item" href="kevin.html">Kevin Magnessun</a></li>
+              <li><a class="dropdown-item" href="mick.html">Mick Schumacher</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Calendar
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="bahraingp.html">Bahrain Grand Prix</a></li>
+              <li><a class="dropdown-item" href="jeddahgp.html">Jeddah Grand Prix</a></li>
+              <li><a class="dropdown-item" href="australiangp.html">Australian Grand Prix</a></li>
+              <li><a class="dropdown-item" href="imolagp.html">Emilia Romania Grand Prix</a></li>
+              <li><a class="dropdown-item" href="spaingp.html">Spanish Grand Prix</a></li>
+              <li><a class="dropdown-item" href="monacogp.html">Monaco Grand Prix</a></li>
+              <li><a class="dropdown-item" href="bakugp.html">Azerbaijan Grand Prix</a></li>
+              <li><a class="dropdown-item" href="britishgp.html">British Grand Prix</a></li>
+              <li><a class="dropdown-item" href="austraingp.html">Austrian Grand Prix</a></li>
+              <li><a class="dropdown-item" href="frenchgp.html">French Grand Prix</a></li>
+              <li><a class="dropdown-item" href="hungarygp.html">Hungarian Grand Prix</a></li>
+              <li><a class="dropdown-item" href="belgiangp.html">Belgian Grand Prix</a></li>
+              <li><a class="dropdown-item" href="dutchgp.html">Dutch Grand Prix</a></li>
+              <li><a class="dropdown-item" href="italygp.html">Italian Grand Prix</a></li>
+              <li><a class="dropdown-item" href="usgp.html">United States Grand Prix</a></li>
+              <li><a class="dropdown-item" href="mexicogp.html">Mexican Grand Prix</a></li>
+              <li><a class="dropdown-item" href="brazilgp.html">Brazilian Grand Prix</a></li>
+              <li><a class="dropdown-item" href="abudhabigp.html">Abu Dhabi Grand Prix</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Tracks
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="bahrain.html">Bahrain International Circuit</a></li>
+              <li><a class="dropdown-item" href="jeddah.html">Jeddah Corniche Circuit</a></li>
+              <li><a class="dropdown-item" href="albert.html">Albert Park Circuit</a></li>
+              <li><a class="dropdown-item" href="imola.html">Imola Circuit</a></li>
+              <li><a class="dropdown-item" href="barcelona.html">Circuit de Barcelona Catalunya</a></li>
+              <li><a class="dropdown-item" href="monaco.html">Circuit de Monaco</a></li>
+              <li><a class="dropdown-item" href="baku.html">Baku City Circuit</a></li>
+              <li><a class="dropdown-item" href="silverstone.html">Silverstone Circuit</a></li>
+              <li><a class="dropdown-item" href="ring.html">Red Bull Ring</a></li>
+              <li><a class="dropdown-item" href="france.html">Circuit Paul Richard</a></li>
+              <li><a class="dropdown-item" href="hungary.html">Hungaroring</a></li>
+              <li><a class="dropdown-item" href="spa.html">Circuit de Spa-francorchamps</a></li>
+              <li><a class="dropdown-item" href="dutch.html">Circuit Zanvoort</a></li>
+              <li><a class="dropdown-item" href="monza.html">Autodromo Nazionale di Monza</a></li>
+              <li><a class="dropdown-item" href="usa.html">Circuit Of The Americas</a></li>
+              <li><a class="dropdown-item" href="mexico.html">Autodromo Hermanos Rodriguez</a></li>
+              <li><a class="dropdown-item" href="brazil.html">Interlagos Circuit</a></li>
+              <li><a class="dropdown-item" href="abudhabi.html">Yas Marina Circuit</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="live.html">Watch Live</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<section class="parallax">
+    <div class="parallax-inner">
+        
+    </div>
+</section>
+  <center><br>
+      <h1>Bahrain F1 Circuit<br></h1>
+      <img src="2021 Jeddah GP.png" class="text-center" alt="" height="40%" width="40%">
+    <h2>Circuit stats</h2>
+  </center>
+  <div class="container col-sm-5">
+    <table class="table table-bordered text-center">
+      <tbody>
+        <tr>
+          <th>First Grand Prix:</th>
+          <td>1950</td>
+        </tr>
+        <tr>
+          <th>Number of laps:</th>
+          <td>53</td>
+        </tr>
+        <tr>
+          <th>Track length:</th>
+          <td>5.793 kms</td>
+        </tr>
+        <tr>
+          <th>Traction</th>
+          <td>Medium</td>
+        </tr>
+        <tr>
+          <th>Braking</th>
+          <td>High</td>
+        </tr>
+        <tr>
+          <th>Lateral</th>
+          <td>Low</td>
+        </tr>
+        <tr>
+          <th>Tyre stress</th>
+          <td>Very high</td>
+        </tr>
+        <tr>
+          <th>Asphalt grip</th>
+          <td>Low</td>
+        </tr>
+        <tr>
+          <th>Asphalt abrasion</th>
+          <td>High</td>
+        </tr>
+        <tr>
+          <th>Downforce</th>
+          <td>Very low</td>
+        </tr>
+        <tr>
+          <th>Racing distance:</th>
+          <td>306.720 kms</td>
+        </tr>
+        <tr>
+          <th>Turns:</th>
+          <td>11</td>
+        </tr>
+        <tr>
+          <th>DRS zones:</th>
+          <td>2</td>
+        </tr>
+        <tr>
+          <th>Lap record:</th>
+          <td>1:21.046 Rubens Barichello (2004)</td>
+        </tr>
+      </tbody>
+    </table>
+    <h6><a href="bahrain.html">More track information</a></h6>
+  </center>
+    <center><h2>
+      Available tyre compounds
+    </h2>
+    <div class="container col-sm-12">
+      <table class="table text-center">
+        <thead>
+          <tr>
+            <th><div><img src="hard.png" alt="" width="150px" height="150px"></div>C2</th>
+            <th><div><img src="medium.png" alt="" width="150px" height="150px"></div>C3</th>
+            <th><div><img src="soft.png" alt="" width="150px" height="150px"></div>C4</th>
+          </tr>
+        </thead>
+      </table>
+    </div></center>
+  </div>
+    <div class="container-fluid">
+      <footer class="row row-cols-5 py-5 my-5 border-top">
+        <div class="col">
+          <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+          <p class="text-muted">&copy; F1 Universe 2021</p>
+        </div>
+  
+        <div class="col">
+
+        </div>
+  
+        <div class="col">
+        </div>
+  
+        <div class="col">
+          
+        </div>
+  
+        <div class="col">
+          <h6>YUVRAJ VAGHELA</h6>
+          <h6>email: example@gmail.com</h6>
+          <h6>Phone: 123456789</h6>
+        </div>
+      </footer>
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>  
+</body>
+
+</html>
